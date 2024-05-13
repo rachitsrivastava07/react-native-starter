@@ -1,0 +1,14 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "target": "esnext",
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "baseUrl": ".",
+    "paths": {
+      "@app/*": ["App/*"],
+      "@commons/*": ["src/@commons/*"],
+      "@modules/*": ["src/modules/*"],
+    }
+  }
+}
